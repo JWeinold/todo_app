@@ -1,0 +1,31 @@
+.tasklist-heading {
+  text-decoration: underline;
+  font-size: 20px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #9CD382;
+  background: linear-gradient(rgba(102, 196, 58, 0.43), rgba(157, 196, 58, 0.64), rgba(215, 174, 49, 0.77));
+  font-family: sans-serif;
+  padding: 2rem;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgba(250, 250, 250, 0.9);
+}
+#task_description {
+  width: 100%;
+}
+#task_list {
+  width: 500px;
+}
